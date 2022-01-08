@@ -16,7 +16,7 @@
 
 RCT_EXPORT_MODULE();
 
-// Available as NativeModules.IntercomWrapper.logEvent
+// Available as NativeModules.IntercomWrapper.initialize
 RCT_EXPORT_METHOD(initialize:(NSString*)apiKey appId:(NSString*)appId resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject) {
     NSLog(@"Initialize with %@", apiKey);
 

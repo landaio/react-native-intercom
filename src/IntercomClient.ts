@@ -55,6 +55,10 @@ export class IntercomClient {
     return IntercomWrapper.logEvent(eventName, metaData);
   }
 
+  initialize(apiKey: any, appId: any) {
+    return IntercomWrapper.initialize(apiKey, appId);
+  }
+
   handlePushMessage() {
     return IntercomWrapper.handlePushMessage();
   }

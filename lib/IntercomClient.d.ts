@@ -24,6 +24,7 @@ export declare class IntercomClient {
     registerUnidentifiedUser(): any;
     logout(): any;
     logEvent(eventName: any, metaData: any): any;
+    initialize(apiKey: any, appId: any): any;
     handlePushMessage(): any;
     displayMessenger(): any;
     hideMessenger(): any;
