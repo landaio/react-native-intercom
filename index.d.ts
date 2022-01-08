@@ -74,6 +74,14 @@ export function registerIdentifiedUser(options: { userId: string } | { email: st
 export function logout(): Promise<void>;
 
 /**
+ * Initialize the SDK
+ * @param {string} apiKey
+ * @param {string} appId
+ */
+export function initialize(apiKey: string, appId: string): Promise<void>;
+
+
+/**
  * Log an event
  * @param {string} eventName
  * @param {[key: string]: string | number | boolean } metadata
